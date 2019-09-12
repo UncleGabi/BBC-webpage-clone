@@ -1,0 +1,470 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+
+}
+
+#topbar-section {
+
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #c5c5c5;
+
+}
+
+#BBC-tab {
+
+    width: 150px;
+    height: 100%;
+    float: left;
+
+}
+
+#BBC-logo {
+
+    margin-top: 7px;
+    margin-left: 50px;
+
+}
+
+#signIn-tab {
+
+    width: 175px;
+    height: 100%;
+    border-left: 1px solid #c5c5c5;
+    float: left;
+
+}
+
+#signIn-logo {
+
+    height: 20px;
+    margin-top: 9.5px;
+    margin-left: 15.5px;
+    float: left;
+    margin-right: 7px;
+
+}
+
+#signIn-text {
+
+    font-size: 13px;
+    margin-top: 13px;
+    font-weight: bolder;
+
+}
+
+.topBar-tabs {
+
+    height: 14px;
+    width: fit-content;
+    padding: 13px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    float: left;
+    border-left: 1px solid #CCCCCC;
+
+}
+
+#topMore {
+
+    width: 120px;
+    float: left;
+
+}
+
+#topMore img {
+
+    height: 9px;
+    margin-left: 70px;
+
+}
+
+#search-tab {
+
+    height: 20px;
+    padding: 10px 15px;
+
+}
+
+#search-bar {
+
+    height: 20px;
+    width: 150px;
+    border: none;
+    background-color: #E4E4E4;
+    padding-left: 5px;
+    font-weight: bold;
+    float: left;
+
+}
+
+#search-button {
+
+    height: 15px;
+    background-color: #E4E4E4;
+    padding: 2.5px;
+
+}
+
+/* Section for the topBar box-shadows  */
+#signIn-tab:hover {
+
+    box-shadow: inset 0 -4px 0 0 #1188BB;
+
+}
+
+#Home:hover {
+
+    box-shadow: inset 0 -4px 0 0 black;
+
+}
+
+#News:hover {
+
+    box-shadow: inset 0 -4px 0 0 #BB1919;
+
+}
+
+#Sport:hover {
+
+    box-shadow: inset 0 -4px 0 0 #FFD230;
+
+}
+
+#Reel:hover {
+
+    box-shadow: inset 0 -4px 0 0 #0068FF;
+
+}
+
+#Worklife:hover {
+
+    box-shadow: inset 0 -4px 0 0 #0052A1;
+
+}
+
+#Travel:hover {
+
+    box-shadow: inset 0 -4px 0 0 #589E50;
+
+}
+
+#Future:hover {
+
+    box-shadow: inset 0 -4px 0 0 #002856;
+
+}
+
+#Culture:hover {
+
+    box-shadow: inset 0 -4px 0 0 #482878;
+
+}
+
+#topMore:hover {
+
+    box-shadow: inset 0 -4px 0 0 #262626;
+
+}
+
+#news-header {
+
+    width: 100%;
+    height: 40px;
+    background-color: #bb1919;
+    font-size: 50px;
+    font-weight: 300px;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    padding: 5px 0px 30px 50px;
+
+}
+
+#bottomBar-section {
+
+    width: 100%;
+    height: 30px;
+    background-color: #bb1919;
+    padding: 0px 50px;
+
+}
+
+.bottomBar-tabs {
+
+    color: white;
+    width: fit-content;
+    height: 16px;
+    margin: 0px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-right: 1px solid #BB454F;
+    float: left;
+
+}
+
+.bottomBar-tabs:hover {
+
+    box-shadow: 0 4px 0 0 white;
+
+}
+
+#bottomMore {
+
+    width: 50px;
+    border-right: none;
+    float: left;
+
+}
+
+#bottomMore:hover {
+
+    background-color: black;
+    box-shadow: none;
+    height: 20px;
+
+}
+
+#white-dropdown-arrow {
+
+    height: 15px;
+    float: right;
+
+}
+
+#page-container {
+
+    height: fit-content;
+    width: 100%;
+
+}
+
+#page-container h3 {
+
+    margin: 20px 0 0 155px;
+    width: fit-content;
+    color: #6e6e6e;
+    border-bottom: 3px solid #bb1616;
+
+}
+
+#main-article-container {
+
+    margin-left: 150px;
+    width: 683px;
+    height: 330px;
+    border-bottom: 1px solid #CCCCCC;
+    float: left;
+}
+
+#main-article {
+
+    border: 1px solid black;
+    height: 10px;
+
+}
+
+#page-container a:hover {
+
+    color: #0052D1;
+
+}
+
+h1 {
+
+    margin: 20px 0;
+
+}
+
+#article-text {
+    
+    float: left;
+    margin-right: 20px;
+    width: 265px;
+
+}
+
+.layout {
+
+    position: relative;
+    top: -130px;
+
+}
+
+.details {
+
+    width: fit-content;
+    margin-left: 30px;
+    font-size: 13px;
+    color: #6e6e6e;
+    margin-bottom: 20px;
+
+}
+
+#genre {
+
+    margin-left: 5px;
+    padding-left: 7px;
+    border-left: 1px solid #CCCCCC;
+    color: #BB1919;
+
+}
+
+hr {
+
+    border: 0.5px solid #bb1919;
+    width: 50px;
+    margin-bottom: 20px;
+
+}
+
+.further-links {
+
+    font-size: 14px;
+    color: #6e6e6e;
+    margin-left: 30px;
+
+}
+
+#side-articles {
+
+    margin-top: 25px;
+    margin-left: 20px;
+    padding-left: 20px;
+    float: left;
+    border-left: 1px solid #CCCCCC;
+
+}
+
+h2 {
+
+    margin-bottom: 30px;
+
+}
+
+.side-blocks {
+
+    height: 83px;
+    width: 300px;
+
+}
+
+.side-blocks img {
+
+    float: left;
+    margin-right: 8px;
+
+}
+
+.side-blocks p {
+
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.upload-date {
+
+    font-size: 13px;
+    color: #6e6e6e;
+    margin-left: 15px;
+    padding: 10px;
+
+}
+
+.category {
+
+    font-size: 13px;
+    color: #BB1919;
+    position: relative;
+    top: 4px;
+
+}
+
+#twitter-news {
+
+    margin-top: 20px;
+    border-right: 1px solid #CCCCCC;
+    width: 235px;
+    margin-left: 155px;
+    float: left;
+    position: relative;
+    top: -250px;
+
+}
+
+.news-text {
+
+    margin: 10px 0;
+    font-size: 14px;
+
+}
+
+#drone-in-Germany {
+
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 235px;
+    float: left;
+    border-right: 1px solid #CCCCCC;
+    position: relative;
+    top: -250px;
+
+}
+
+#drone-in-Germany p {
+
+    margin-bottom: 25px;
+
+}
+
+.vid-icon {
+
+    height: 12px;
+    margin-top: 2px;
+    margin-right: 5px;
+    float: left;
+
+}
+
+#news-boxes-section {
+
+    margin-top: 30px;
+    margin-left: 15px;
+    width: 180px;
+    height: 100px;
+    float: left;
+    position: relative;
+    top: -250px;
+
+}
+
+.news-boxes {
+
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 5px;
+
+}
+
+.news-boxes h3 {
+
+    margin-bottom: 10px;
+
+}
+
+.news-boxes a:hover {
+
+    color: #0068FF;
+
+}
+
+.news-boxes p {
+
+    margin-left: 7px;
+
+}
